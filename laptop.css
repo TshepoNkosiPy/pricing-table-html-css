@@ -22,8 +22,10 @@
         background-color: rgb(202, 197, 197);
         border-radius: 10px;
         min-width: 25vw;
-        justify-items: center;
-        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70vh
     }
     .sign-up{
         border: none;
@@ -32,7 +34,6 @@
         font-weight: bold;
         font-size: 1rem;
         border-radius: 10px;
-        margin-bottom: 20px;
         transition: padding 0.125s ease-in-out;
     }
     .sign-up:hover{
